@@ -1,0 +1,3 @@
+Beloe function is written to filter elements in the array based on the supplied delimeter in scala.
+
+ def f(delim:Int,arr:List[Int]):List[Int] =  arr.filter( _ < delim)
