@@ -1,0 +1,2 @@
+--Hacker Rank List Replication challenge below is the code 
+def f(num:Int,arr:List[Int]):List[Int] = arr.flatMap(List.fill(num)(_))
