@@ -1,2 +1,3 @@
---Hacker Rank List Replication challenge below is the code 
+--Hacker Rank List Replication challenge below is the code use the below function in Scala  to replicate the 
+-- List element n number of times 
 def f(num:Int,arr:List[Int]):List[Int] = arr.flatMap(List.fill(num)(_))
