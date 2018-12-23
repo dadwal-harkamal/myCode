@@ -1,7 +1,7 @@
 from pyspark import SparkConf, SparkContext
 import os
 
-# Configure the Spark environment
+# Configure the Spark environment word count
 sparkConf = SparkConf().setAppName("WordCounts").setMaster("local")
 sc = SparkContext(conf = sparkConf)
 
